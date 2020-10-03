@@ -15,7 +15,8 @@
         <version>2.19.1</version>
         <configuration>
         <testFailureIgnore>true</testFailureIgnore> <!-- added this line -->
-          <suiteXmlFiles>
+          <useSystemClassLoader>false</useSystemClassLoader>
+<suiteXmlFiles>
             <suiteXmlFile>config/Team4Menu,FavoriteLink,SubmitRequest.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
