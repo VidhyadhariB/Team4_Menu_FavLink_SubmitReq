@@ -17,7 +17,7 @@
         <testFailureIgnore>true</testFailureIgnore> <!-- added this line -->
           <useSystemClassLoader>false</useSystemClassLoader>
 <suiteXmlFiles>
-            <suiteXmlFile>config/Team4Menu,FavoriteLink,SubmitRequest.xml</suiteXmlFile>
+            <suiteXmlFile>config/Team4MenuFavoriteLinkSubmitRequest.xml</suiteXmlFile>
           </suiteXmlFiles>
         </configuration>
  </plugin>
