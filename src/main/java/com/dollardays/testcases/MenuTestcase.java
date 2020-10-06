@@ -66,7 +66,7 @@ public class MenuTestcase extends BaseTest{
 	public void verifyMaskSanitizerPPETest(Hashtable<String, String> hash) throws UnsupportedEncodingException, InterruptedException, GeneralSecurityException {
 		
 		ExtentTestManager.getTest().log(Status.PASS, "Test Case 2: Verify after clicking on Mask, Sanitizer and PPE Label user lands on the correct page");
-
+//for testing
 		MenuPage menuPage = new MenuPage(driver);
 		menuPage.clickMenuButton();
 		ExtentTestManager.getTest().log(Status.PASS, "Step 1: Click on Menu button");		
