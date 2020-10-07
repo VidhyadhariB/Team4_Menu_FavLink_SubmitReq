@@ -1,11 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Parallel Class Runs]" parallel="classes">
   <listeners>
     <listener class-name="com.dollardays.listners.TestListener"/>
   </listeners>
-  <test thread-count="5" name="Dollar Days Test(failed)">
+  <test thread-count="4" name="Dollar Days Test(failed)" parallel="classes">
     <classes>
+      <class name="com.dollardays.testcases.SubmitARequestTestcase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="TC1_submitARequestPage" invocation-numbers="0"/>
+          <include name="beforeClass"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.SubmitARequestTestcase -->
       <class name="com.dollardays.testcases.FavoriteLinkTestcase">
         <methods>
           <include name="TC_02_SortBy_priceLowToHigh" invocation-numbers="0"/>
@@ -18,4 +27,4 @@
       </class> <!-- com.dollardays.testcases.FavoriteLinkTestcase -->
     </classes>
   </test> <!-- Dollar Days Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+</suite> <!-- Failed suite [Parallel Class Runs] -->
