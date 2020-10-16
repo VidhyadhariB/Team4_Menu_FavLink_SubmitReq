@@ -6,6 +6,15 @@
   </listeners>
   <test thread-count="5" name="Dollar Days Test(failed)">
     <classes>
+      <class name="com.dollardays.testcases.SubmitARequestTestcase">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="TC3_helpmessage_submitRequestPage" invocation-numbers="0"/>
+          <include name="quit"/>
+          <include name="setUpBrowser"/>
+        </methods>
+      </class> <!-- com.dollardays.testcases.SubmitARequestTestcase -->
       <class name="com.dollardays.testcases.FavoriteLinkTestcase">
         <methods>
           <include name="TC_02_SortBy_priceLowToHigh" invocation-numbers="0"/>

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="2" ignored="0" total="3" passed="1">
+<testng-results skipped="0" failed="3" ignored="0" total="12" passed="9">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="64895" started-at="2020-10-05T21:56:28 EDT" finished-at="2020-10-05T21:57:33 EDT">
+  <suite name="Suite" duration-ms="191605" started-at="2020-10-16T16:15:24 EDT" finished-at="2020-10-16T16:18:35 EDT">
     <groups>
     </groups>
-    <test name="Dollar Days Test" duration-ms="64895" started-at="2020-10-05T21:56:28 EDT" finished-at="2020-10-05T21:57:33 EDT">
+    <test name="Dollar Days Test" duration-ms="191605" started-at="2020-10-16T16:15:24 EDT" finished-at="2020-10-16T16:18:35 EDT">
       <class name="com.dollardays.testcases.FavoriteLinkTestcase">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="beforeClass" is-config="true" duration-ms="14" started-at="2020-10-05T21:56:28 EDT" finished-at="2020-10-05T21:56:28 EDT">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-10-16T16:16:26 EDT" finished-at="2020-10-16T16:16:26 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="setUpBrowser" is-config="true" duration-ms="13493" started-at="2020-10-05T21:56:29 EDT" finished-at="2020-10-05T21:56:42 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="setUpBrowser" is-config="true" duration-ms="8764" started-at="2020-10-16T16:16:26 EDT" finished-at="2020-10-16T16:16:35 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="PASS" signature="TC_01_addToCart(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="TC_01_addToCart" duration-ms="11613" started-at="2020-10-05T21:56:42 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T21:56:54 EDT">
+        <test-method status="PASS" signature="TC_01_addToCart(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="TC_01_addToCart" duration-ms="11631" started-at="2020-10-16T16:16:35 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:16:46 EDT">
           <params>
             <param index="0">
               <value>
@@ -26,15 +26,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01_addToCart -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="quit" is-config="true" duration-ms="1124" started-at="2020-10-05T21:56:54 EDT" finished-at="2020-10-05T21:56:55 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="quit" is-config="true" duration-ms="1050" started-at="2020-10-16T16:16:46 EDT" finished-at="2020-10-16T16:16:48 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="setUpBrowser" is-config="true" duration-ms="9283" started-at="2020-10-05T21:56:55 EDT" finished-at="2020-10-05T21:57:04 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="setUpBrowser" is-config="true" duration-ms="9242" started-at="2020-10-16T16:16:48 EDT" finished-at="2020-10-16T16:16:57 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="TC_02_SortBy_priceLowToHigh(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="TC_02_SortBy_priceLowToHigh" duration-ms="8706" started-at="2020-10-05T21:57:04 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T21:57:13 EDT">
+        <test-method status="FAIL" signature="TC_02_SortBy_priceLowToHigh(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="TC_02_SortBy_priceLowToHigh" duration-ms="3992" started-at="2020-10-16T16:16:57 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:17:01 EDT">
           <params>
             <param index="0">
               <value>
@@ -44,15 +44,17 @@
           </params>
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [false] but found [true]]]>
+              <![CDATA[ Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+              <![CDATA[java.lang.AssertionError:  Successfully Logged into the HomePage expected [DollarDays | Bulk Goods for Nonprofits, Businesses & Schools | Wholesale Products] but found [Login or Register - DollarDays]
 at org.testng.Assert.fail(Assert.java:99)
 at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertFalse(Assert.java:67)
-at org.testng.Assert.assertFalse(Assert.java:77)
-at com.dollardays.testcases.FavoriteLinkTestcase.TC_02_SortBy_priceLowToHigh(FavoriteLinkTestcase.java:155)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.dollardays.pages.LoginPage.login(LoginPage.java:85)
+at com.dollardays.testcases.FavoriteLinkTestcase.TC_02_SortBy_priceLowToHigh(FavoriteLinkTestcase.java:95)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -87,15 +89,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_02_SortBy_priceLowToHigh -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="quit" is-config="true" duration-ms="837" started-at="2020-10-05T21:57:13 EDT" finished-at="2020-10-05T21:57:14 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="quit" is-config="true" duration-ms="822" started-at="2020-10-16T16:17:01 EDT" finished-at="2020-10-16T16:17:02 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="setUpBrowser" is-config="true" duration-ms="9090" started-at="2020-10-05T21:57:14 EDT" finished-at="2020-10-05T21:57:23 EDT">
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="setUpBrowser" is-config="true" duration-ms="8897" started-at="2020-10-16T16:17:02 EDT" finished-at="2020-10-16T16:17:11 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBrowser -->
-        <test-method status="FAIL" signature="TC_03_SortBy_priceHighToLow(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="TC_03_SortBy_priceHighToLow" duration-ms="9012" started-at="2020-10-05T21:57:23 EDT" data-provider="dd-dataprovider" finished-at="2020-10-05T21:57:32 EDT">
+        <test-method status="FAIL" signature="TC_03_SortBy_priceHighToLow(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="TC_03_SortBy_priceHighToLow" duration-ms="8989" started-at="2020-10-16T16:17:11 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:17:20 EDT">
           <params>
             <param index="0">
               <value>
@@ -148,15 +150,264 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_03_SortBy_priceHighToLow -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="quit" is-config="true" duration-ms="777" started-at="2020-10-05T21:57:32 EDT" finished-at="2020-10-05T21:57:33 EDT">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="quit" is-config="true" duration-ms="983" started-at="2020-10-16T16:17:20 EDT" finished-at="2020-10-16T16:17:21 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@6a472554]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-05T21:57:33 EDT" finished-at="2020-10-05T21:57:33 EDT">
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.FavoriteLinkTestcase@69b794e2]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-16T16:17:21 EDT" finished-at="2020-10-16T16:17:21 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
       </class> <!-- com.dollardays.testcases.FavoriteLinkTestcase -->
+      <class name="com.dollardays.testcases.MenuTestcase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-10-16T16:17:21 EDT" finished-at="2020-10-16T16:17:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="setUpBrowser" is-config="true" duration-ms="8876" started-at="2020-10-16T16:17:21 EDT" finished-at="2020-10-16T16:17:29 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyMenuItemsTest(java.util.Hashtable)[pri:1, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="verifyMenuItemsTest" duration-ms="1314" started-at="2020-10-16T16:17:29 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:17:31 EDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenuItemsTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="quit" is-config="true" duration-ms="2106" started-at="2020-10-16T16:17:31 EDT" finished-at="2020-10-16T16:17:33 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="setUpBrowser" is-config="true" duration-ms="8771" started-at="2020-10-16T16:17:33 EDT" finished-at="2020-10-16T16:17:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyMaskSanitizerPPETest(java.util.Hashtable)[pri:2, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="verifyMaskSanitizerPPETest" duration-ms="2782" started-at="2020-10-16T16:17:42 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:17:44 EDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMaskSanitizerPPETest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="quit" is-config="true" duration-ms="1055" started-at="2020-10-16T16:17:44 EDT" finished-at="2020-10-16T16:17:46 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="setUpBrowser" is-config="true" duration-ms="8670" started-at="2020-10-16T16:17:46 EDT" finished-at="2020-10-16T16:17:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyForwardBackpacksTest(java.util.Hashtable)[pri:3, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="verifyForwardBackpacksTest" duration-ms="2770" started-at="2020-10-16T16:17:54 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:17:57 EDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForwardBackpacksTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="quit" is-config="true" duration-ms="1287" started-at="2020-10-16T16:17:57 EDT" finished-at="2020-10-16T16:17:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="setUpBrowser" is-config="true" duration-ms="8805" started-at="2020-10-16T16:17:58 EDT" finished-at="2020-10-16T16:18:07 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyBabyTest(java.util.Hashtable)[pri:4, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="verifyBabyTest" duration-ms="993" started-at="2020-10-16T16:18:07 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:18:08 EDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBabyTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="quit" is-config="true" duration-ms="1122" started-at="2020-10-16T16:18:08 EDT" finished-at="2020-10-16T16:18:09 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="setUpBrowser" is-config="true" duration-ms="8585" started-at="2020-10-16T16:18:09 EDT" finished-at="2020-10-16T16:18:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyfAQsTest(java.util.Hashtable)[pri:5, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="verifyfAQsTest" duration-ms="2304" started-at="2020-10-16T16:18:18 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:18:20 EDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfAQsTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="quit" is-config="true" duration-ms="968" started-at="2020-10-16T16:18:20 EDT" finished-at="2020-10-16T16:18:21 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="setUpBrowser" is-config="true" duration-ms="9713" started-at="2020-10-16T16:18:21 EDT" finished-at="2020-10-16T16:18:31 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="verifyElementsOnfAQsTest(java.util.Hashtable)[pri:6, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="verifyElementsOnfAQsTest" duration-ms="3503" started-at="2020-10-16T16:18:31 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:18:34 EDT">
+          <params>
+            <param index="0">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementsOnfAQsTest -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="quit" is-config="true" duration-ms="928" started-at="2020-10-16T16:18:34 EDT" finished-at="2020-10-16T16:18:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.MenuTestcase@3f200884]" name="afterClass" is-config="true" duration-ms="1" started-at="2020-10-16T16:18:35 EDT" finished-at="2020-10-16T16:18:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.MenuTestcase -->
+      <class name="com.dollardays.testcases.SubmitARequestTestcase">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="beforeClass" is-config="true" duration-ms="10" started-at="2020-10-16T16:15:24 EDT" finished-at="2020-10-16T16:15:24 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="setUpBrowser" is-config="true" duration-ms="9532" started-at="2020-10-16T16:15:24 EDT" finished-at="2020-10-16T16:15:34 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC1_submitARequestPage(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="TC1_submitARequestPage" duration-ms="9887" started-at="2020-10-16T16:15:34 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:15:44 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Submit A Request with valid data , TCID=TC1, SheetName=SubmitRequestPage, Runmode=yes , Order Number=7890, UserName=srikanthtesting100@gmail.com, Phone Number=8090900890, Password=cGFzc3dvcmQxMjM=, Message=This product has damage, Select RequestType=Damage}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC1_submitARequestPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="quit" is-config="true" duration-ms="1040" started-at="2020-10-16T16:15:44 EDT" finished-at="2020-10-16T16:15:45 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="setUpBrowser" is-config="true" duration-ms="8294" started-at="2020-10-16T16:15:45 EDT" finished-at="2020-10-16T16:15:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="PASS" signature="TC2_findallLinks_submitRequestPage(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="TC2_findallLinks_submitRequestPage" duration-ms="19336" started-at="2020-10-16T16:15:53 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:16:12 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Submit A Request with valid data , TCID=TC1, SheetName=SubmitRequestPage, Runmode=yes , Order Number=7890, UserName=srikanthtesting100@gmail.com, Phone Number=8090900890, Password=cGFzc3dvcmQxMjM=, Message=This product has damage, Select RequestType=Damage}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC2_findallLinks_submitRequestPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="quit" is-config="true" duration-ms="790" started-at="2020-10-16T16:16:12 EDT" finished-at="2020-10-16T16:16:13 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="setUpBrowser()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="setUpBrowser" is-config="true" duration-ms="9812" started-at="2020-10-16T16:16:13 EDT" finished-at="2020-10-16T16:16:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBrowser -->
+        <test-method status="FAIL" signature="TC3_helpmessage_submitRequestPage(java.util.Hashtable)[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="TC3_helpmessage_submitRequestPage" duration-ms="2124" started-at="2020-10-16T16:16:23 EDT" data-provider="dd-dataprovider" finished-at="2020-10-16T16:16:25 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{TestCase=Submit A Request with valid data , TCID=TC1, SheetName=SubmitRequestPage, Runmode=yes , Order Number=7890, UserName=srikanthtesting100@gmail.com, Phone Number=8090900890, Password=cGFzc3dvcmQxMjM=, Message=This product has damage, Select RequestType=Damage}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementNotVisibleException">
+            <message>
+              <![CDATA[element not interactable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55582}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13324_860135489}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4209142e4bbf25265fd829c1ce509bec]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotVisibleException: element not interactable
+  (Session info: chrome=86.0.4240.75)
+  (Driver info: chromedriver=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 22 milliseconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'MININT-UM25UFB', ip: '10.0.75.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:55582}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=86.0.4240.22 (398b0743353ff36fb1b82468f63a3a93b4e2e89e-refs/branch-heads/4240@{#378}), userDataDir=C:\Users\Rajesh\AppData\Local\Temp\scoped_dir13324_860135489}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=86.0.4240.75, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 4209142e4bbf25265fd829c1ce509bec
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy11.click(Unknown Source)
+at com.dollardays.pages.LoginPage.login(LoginPage.java:77)
+at com.dollardays.testcases.SubmitARequestTestcase.TC3_helpmessage_submitRequestPage(SubmitARequestTestcase.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1259)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotVisibleException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC3_helpmessage_submitRequestPage -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="quit" is-config="true" duration-ms="826" started-at="2020-10-16T16:16:25 EDT" finished-at="2020-10-16T16:16:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.dollardays.testcases.SubmitARequestTestcase@61d47554]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-10-16T16:16:26 EDT" finished-at="2020-10-16T16:16:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.dollardays.testcases.SubmitARequestTestcase -->
     </test> <!-- Dollar Days Test -->
   </suite> <!-- Suite -->
 </testng-results>
